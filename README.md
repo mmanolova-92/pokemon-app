@@ -26,6 +26,32 @@ npm install
 
 The folder structure is automatically defined by creating the app. Additionally, a **src** folder is created for the components, TypeScript interfaces, and GraphQL query. 
 
+```
+pokemon-app
+└───.expo
+└───.git
+└───assets
+└───node_modules
+└───src
+│   └───components
+│   │   Header.tsx
+│   │   HomeScreen.tsx
+│   │   PokemonDetailsModal.tsx
+│   │   PokemonList.tsx
+│   └───gql
+│       │   Query.tsx
+│   └───interfaces
+│   │   Pokemon.tsx
+│   .gitignore
+│   app.json
+│   App.tsx
+│   babel.config
+│   package.json
+│   package-lock.json
+│   README.md
+│   tsconfig.json
+```
+
 ## Usage
 
 The app is created by using a blank TypeScript template for Expo apps.
