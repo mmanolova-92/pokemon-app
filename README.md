@@ -20,6 +20,7 @@ Clone the repo and install the dependencies.
 git clone https://github.com/mmanolova-92/pokemon-app.git
 cd pokemon-app
 npm install
+npx expo start
 ```
 
 ## Folder Structure
